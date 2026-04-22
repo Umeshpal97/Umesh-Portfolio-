@@ -1,0 +1,58 @@
+.projects h1 {
+  text-decoration:;
+}
+
+.projects {
+  padding: 20px 10px;
+  text-align: center;
+  color: #fff;
+
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+
+/* Card */
+.project-card {
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(15px);
+
+  padding: 25px;
+  margin: 20px auto;
+  border-radius: 15px;
+  max-width: 400px;
+
+  border: 1px solid rgba(0, 255, 255, 0.3);
+
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+}
+
+/* Heading */
+.project-card h3 {
+  color: #00ffff;
+}
+
+/* Button */
+.project-card a {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 18px;
+
+  background: #00ffff;
+  color: #000;
+
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+
+  transition: 0.3s;
+}
+
+/* Hover Effects */
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 40px rgba(0, 255, 255, 0.6);
+}
+
+.project-card a:hover {
+  background: #fff;
+  color: #000;
+}
