@@ -11,11 +11,11 @@ background-size:cover;
 background-position:center;
 background-repeat:no-repeat;*/
 
-/*min-height:100vh;
+min-height:100vh;
 display:flex;
 justify-content:center;
 align-items:center;
-color:white;*/
+color:white;
 }
 
 .container{
@@ -44,7 +44,7 @@ font-weight:600;
 nav a{
 margin-left:25px;
 text-decoration:none;
-/*color:white;*/
+color:white;
 font-size:15px;
 transition:0.3s;
 }
@@ -108,7 +108,7 @@ border:1px solid white;
 border-radius:50%;
 margin-right:10px;
 margin-top: 20px;
-/*color:white;*/
+color:white;
 font-size:18px;
 text-decoration:none;
 transition:0.3s;
@@ -118,118 +118,3 @@ transition:0.3s;
 background:#ff00cc;
 border:none;
 }  
-
-/*About Page */
-
-.about {
-  min-height: 100vh;
-  align-items:center;
-  justify-content:center;
-
-  /* SAME BACKGROUND */
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-}
-
-/* Card */
-.about-card {
-  width: 90%;
-  max-width: 800px;
-  padding: 50px 30px;
-
-  border-radius: 20px;
-
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(20px);
-
-  border: 1px solid rgba(0, 255, 255, 0.3);
-
-  box-shadow: 0 0 40px rgba(0, 255, 255, 0.2);
-
-  text-align: center;
-  color: #fff;
-}
-
-/* Heading */
-.about-card h2 {
-  font-size: 38px;
-  margin-bottom: 20px;
-
-  color: #00ffff;
-  text-shadow: 0 0 15px rgba(0, 255, 255, 0.7);
-}
-
-/* Text */
-.about-card p {
-  font-size: 16px;
-  line-height: 1.8;
-  color: white
-}
-
-/* Hover */
-.about-card:hover {
-  transform: translateY(-8px);
-  transition: 0.4s;
-
-  box-shadow: 0 0 60px rgba(0, 255, 255, 0.6);
-}
-
-/* Projects Page */
-
-.projects h1 {
-  text-decoration:;
-}
-
-.projects {
-  padding: 20px 10px;
-  text-align: center;
-  color: #fff;
-
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-}
-
-/* Card */
-.project-card {
-  background: rgba(255,255,255,0.05);
-  backdrop-filter: blur(15px);
-
-  padding: 25px;
-  margin: 20px auto;
-  border-radius: 15px;
-  max-width: 400px;
-
-  border: 1px solid rgba(0, 255, 255, 0.3);
-
-  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
-}
-
-/* Heading */
-.project-card h3 {
-  color: #00ffff;
-}
-
-/* Button */
-.project-card a {
-  display: inline-block;
-  margin-top: 12px;
-  padding: 8px 18px;
-
-  background: #00ffff;
-  color: #000;
-
-  border-radius: 20px;
-  text-decoration: none;
-  font-weight: bold;
-
-  transition: 0.3s;
-}
-
-/* Hover Effects */
-.project-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 0 40px rgba(0, 255, 255, 0.6);
-}
-
-.project-card a:hover {
-  background: #fff;
-  color: #000;
-}
