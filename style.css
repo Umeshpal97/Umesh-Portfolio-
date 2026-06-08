@@ -5,7 +5,7 @@ box-sizing:border-box;
 font-family:'Poppins',sans-serif;
 }
 
-/*body{
+.container{
 background-image:url("background.png");
 background-size:cover;
 background-position:center;
@@ -14,9 +14,9 @@ background-repeat:no-repeat;*/
 /*min-height:100vh;
 display:flex;
 justify-content:center;
-align-items:center;
+align-items:center;*/
 color:white;
-}*/
+}
 
 .container{
 width:90%;
@@ -91,9 +91,6 @@ color:black;
 cursor:pointer;
 font-weight:500;
 }
-
-
-
 
 .image img{
 width:280px;
