@@ -57,12 +57,7 @@ color:#ff00cc;
 display:flex;
 justify-content:space-between;
 align-items:center;
-flex-wrap:wrap;
-background-image:url("background.png");
-background-size:cover;
-background-position:center;
-background-repeat:no-repeat;  
-color:white;    
+flex-wrap:wrap; 
 }
 
 .content{
