@@ -11,16 +11,17 @@ background-size:cover;
 background-position:center;
 background-repeat:no-repeat;
 
-min-height:100vh;
+/*min-height:100vh;
 display:flex;
 justify-content:center;
-align-items:center;
+align-items:center;*/
 color:white;
 }
 
 .container{
 width:90%;
 max-width:1200px;
+margin:40px auto;
 padding:30px;
 border-radius:20px;
 background:rgba(255,255,255,0.05);
